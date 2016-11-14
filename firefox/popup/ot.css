@@ -1,0 +1,20 @@
+body {
+  padding: 0;
+  margin: 0;
+
+  width: 400px;
+  height: 500px;
+}
+
+header {
+  background-color: #c9c9d9;
+  color: #333;
+  font-size: 0.9em;
+  font-family: sans-serif;
+  box-shadow: 0px 2px 2px -1px black;
+
+  padding: 3px;
+
+  height: 24px;
+  max-height: 24px;
+}

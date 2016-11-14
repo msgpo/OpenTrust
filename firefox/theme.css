@@ -1,0 +1,22 @@
+.ot-ff-ext.ot-res {
+  vertical-align: middle;
+  height: 20px;
+  min-width: 20px;
+  display: inline-block;
+  background: rgba(255, 255, 255, 0.5);
+  border: 1px solid #222;
+
+  margin-left: 3px;
+  border-radius: 1px;
+}
+
+
+
+.ot-ff-ext.ot-res.ot-ff-loading {
+  background-image: url("icons/loading.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+
+  font-size: 0.6em;
+
+}

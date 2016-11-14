@@ -1,0 +1,34 @@
+{
+
+  "manifest_version": 2,
+  "name": "__MSG_extensionName__",
+  "description": "__MSG_extensionDescription__",
+  "version": "1.0",
+  "homepage_url": "https://github.com/mdn/w",
+  "icons": {
+    "48": "icons/link-48.png"
+  },
+
+
+
+  "permissions": ["notifications", "tabs"],
+
+  "background": {
+    "scripts": ["background-script.js"]
+  },
+  "browser_action": {
+      "default_icon": "icons/link-48.png",
+      "default_title": "OpenTrust",
+      "default_popup": "popup/ot.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["jquery.min.js", "content-script.js", "qddg.js"],
+      "css": ["theme.css"]
+    }
+
+  ],
+
+  "default_locale": "en"
+}

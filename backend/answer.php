@@ -18,23 +18,4 @@ echo json_encode($arr);
 /*
   https://github.com/Extarys/OpenTrust/wiki/Tag-list
   https://github.com/Extarys/OpenTrust/wiki/Evals-list
-  
-  #Evals
-  
-  trustwortyness
-    Rank from 0 to 10 (No sites deserve a 10!). How much can we trust this website
-    
-  shopping-confidence
-    
-   
-  childs
-    How the site's content is safe for childrens
-    
-  privacy
-    How much does this company have your privacy at heart
-    
-  angel-o-meter (MUHAHAHAAA - we do need a better name for this though)
-    50% based of other values
-    50% based on some research (for popular websites) ,considering
-      company integrity, missions, recent news (like WOT would not make good here)
 */

@@ -16,12 +16,8 @@ $arr = array(
 
 echo json_encode($arr);
 /*
-  #Tags
-  
-  search-engine
-  adult
-  gambling
-  file-sharing
+  https://github.com/Extarys/OpenTrust/wiki/Tag-list
+  https://github.com/Extarys/OpenTrust/wiki/Evals-list
   
   #Evals
   
